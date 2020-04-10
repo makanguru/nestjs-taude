@@ -8,7 +8,6 @@ export class TasksController {
 
     @Get()
     getAllTasks(): Task[] {
-        // let y1:number = 2;
         return this.tasksService.getAllTasks();
     }
 
@@ -24,7 +23,7 @@ export class TasksController {
         // console.log('description', description)
     }
 
-    // @Post() *****************
+    // @Post() 
     // createTask(@Body() body) {
     //     console.log(1, 'body', body);
     // }
